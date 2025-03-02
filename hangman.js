@@ -108,7 +108,7 @@ function coolGame() {
     }
 }
 
-// Yay confetti!
+// Celebratory confetti!
 
 function yayConfetti() {
 	const duration = 15 * 1000,
