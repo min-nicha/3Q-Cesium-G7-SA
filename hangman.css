@@ -1,0 +1,159 @@
+body {
+	background-color: pink;
+}
+
+h1{
+	color: #7A5C58;
+	font-family: arial;
+	text-align: center;
+	font-size: 40px;
+}
+
+button {
+	color: #7A5C58;
+	font-family: arial;
+	display: block;
+	margin: auto;
+	font-size: 20px;
+}
+
+div {
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	color: #7A5C58;
+}
+
+p {
+	text-align: center;
+	font-family: arial;
+}
+
+/* Letters */
+
+#display{
+	font-size: 40px;
+}
+
+#letter1{
+	display: inline;
+	font-family: arial;
+	font-size: 40px;
+}
+
+#letter2{
+	display: inline;
+	font-family: arial;
+	font-size: 40px;
+}
+
+#letter3{
+	display: inline;
+	font-family: arial;
+	font-size: 40px;
+}
+
+#letter4{
+	display: inline;
+	font-family: arial;
+	font-size: 40px;
+}
+
+#letter5{
+	display: inline;
+	font-family: arial;
+	font-size: 40px;
+}
+
+
+/* Hangman Post */
+
+.hangman {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.pole {
+    position: absolute;
+    width: 15px;
+    height: 290px;
+    background-color: #504B38;
+    left: 30px;
+    bottom: 0;
+}
+
+.beam {
+    position: absolute;
+    height: 15px;
+    width: 150px;
+    background-color: #504B38;
+    left: 30px;
+    top: 0;
+}
+
+.rope {
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    background-color: #000000;
+    left: 139px;
+    top: 15px;
+}
+
+/* man hanged graphic :PP*/
+
+.head {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 5px solid #09122C;
+    background-color: pink;
+    border-radius: 100%;
+    left: 120px;
+    top: 40px;
+    display: none;
+}
+
+.body {
+    position: absolute;
+    width: 20px;
+    height: 80px;
+    background-color: #872341;
+    left: 130px;
+    top: 80px;
+    display: none;
+}
+
+.left-arm {
+    position: absolute;
+    transform: rotate(130deg);
+    width: 50px;
+    height: 8px;
+    background-color: #BE3144;
+    left: 92px;
+    top: 100px;
+    display: none;
+}
+
+.right-arm {
+    position: absolute;
+    transform: rotate(230deg);
+    width: 50px;
+    height: 8px;
+    background-color: #BE3144;
+    left: 139px;
+    top: 100px;
+    display: none;
+}
+
+.legs {
+    position: absolute;
+    width: 70px;
+    height: 8px;
+    background-color: #E17564;
+    left: 105px;
+    top: 160px;
+    display: none;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Hangman!</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Buendia, Buhia, Roma">
+    <meta name="keywords" content="Summative Assessment">
+    <meta name="date-submitted" content="03-05-2025">
+    <link rel="stylesheet" href="hangman.css">
+    <script src="hangman.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</head>
+<body>
+    <h1>The Man Who Was Hanged</h1>
+	
+    <div class="hangman">
+        <div class="pole"></div>
+        <div class="beam"></div>
+        <div class="rope"></div>
+        <div id="head" class="head"></div>
+        <div id="body" class="body"></div>
+        <div id="left-arm" class="left-arm"></div>
+        <div id="right-arm" class="right-arm"></div>
+        <div id="legs" class="legs"></div>
+    </div>
+
+    <p id="hints"></p>
+    
+    <button id="button" onclick='coolGame()'>Click me to enter a letter!</button>
+	<br>
+    
+    <div>Lives: <span id="lives">5</span></div>
+
+    <div id="display">
+        <div id="letter1">_</div>
+        <div id="letter2">_</div>
+        <div id="letter3">_</div>
+        <div id="letter4">_</div>
+        <div id="letter5">_</div>
+    </div>
+</body>
+</html>
