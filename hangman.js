@@ -103,7 +103,7 @@ function coolGame() {
 	// Defeat
 
     if (chances === 0) {
-		document.getElementById('hints').innerHTML = 'Oh !! u lose LOL !! The word was: ' + randomWord + '!! Refresh to play again!!';
+		document.getElementById('hints').innerHTML = 'Oh no! It seems that you lost! The word was: ' + randomWord + '. Refresh to play again!';
         document.getElementById('button').style.display = 'none';
     }
 }
